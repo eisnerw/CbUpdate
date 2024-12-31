@@ -9,7 +9,7 @@ import { AlertErrorComponent } from './alert/alert-error.component';
  * Application wide Module
  */
 @NgModule({
-  imports: [AlertComponent, AlertErrorComponent],
-  exports: [CommonModule, NgbModule, FontAwesomeModule, AlertComponent, AlertErrorComponent],
+    imports: [AlertComponent, AlertErrorComponent, FontAwesomeModule],
+    exports: [CommonModule, NgbModule, FontAwesomeModule, AlertComponent, AlertErrorComponent],
 })
 export default class SharedModule {}
