@@ -1,0 +1,34 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "CbUpdate",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "4.1.0"
+      }
+    ],
+    "clientFramework": "angular",
+    "clientTestFrameworks": ["cypress"],
+    "clientTheme": "none",
+    "cqrsEnabled": false,
+    "creationTimestamp": 1735668950741,
+    "cypressAudit": false,
+    "cypressCoverage": false,
+    "databaseType": "sqllite",
+    "devServerPort": 4200,
+    "enableTranslation": false,
+    "entities": [],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "OTU2YTJlYjJiZjE1ZmQ3N2NjZTI5MDhkYjg0NzdlNDlhYTM5ODE5MTJmYjM5YjZhODNjN2Q2ZjI5MWZmYTRjNmQ3Y2MyN2NhZjVmMTc5N2YzZmJmYWMwZjg4ZTE4M2JmMjY5Yw==",
+    "microfrontend": null,
+    "microfrontends": [],
+    "namespace": "CbUpdate",
+    "nativeLanguage": "en",
+    "serverPort": "5000",
+    "testFrameworks": ["cypress"],
+    "withAdminUi": true,
+    "withTerraformAzureScripts": null
+  }
+}
